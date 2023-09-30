@@ -1,0 +1,134 @@
+/* Existing Styles */
+body { 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    background-color: #FFFFF0;
+    color: black;
+    margin: 10px;
+    text-align: justify;
+}
+
+h1, h2 { margin-bottom: 0px; margin-top: 0px; }
+
+p.small { margin: 0px; font-size: smaller; }
+
+a { text-decoration: none; color: #C69500; }
+a:hover { text-decoration: underline; color: black; }
+
+/* New Styles */
+.head {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Elegant File Menu-like Navigation */
+nav#menu {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0;
+    font-family: "Courier New", monospace;
+}
+
+nav#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav#menu ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav#menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+    border-right: 1px solid #c0c0c0;
+}
+
+nav#menu ul li a:last-child {
+    border-right: none;
+}
+
+nav#menu ul li a:hover {
+    background-color: #c0c0c0;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Map Styles */
+#map {
+    width: 500px; /* Original size */
+    height: 500px;
+    background-image: url(newmap.png);
+    background-size: cover;
+    position: relative;
+}
+
+/* Additional styles to ensure map functionality */
+area {
+    cursor: pointer;
+}
+/* Responsive layout */
+@media (max-width: 768px) {
+    #main-content {
+        flex-direction: column;
+    }
+    #map-container, #player-list {
+        width: 100%;
+    }
+    #map img {  /* Add this selector */
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Regular layout */
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+#content {
+    display: relative;
+}
+#map-container {
+    width: 500px; /* Set to the original size of the map */
+}
+#player-list {
+  flex: 1;
+  padding-left: 20px;
+}
+/* New styles for offline players */
+li.offline, a.offline {
+    color: grey;
+}
+/* Code Styling */
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px 0;
+}
