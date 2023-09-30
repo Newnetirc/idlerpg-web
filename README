@@ -1,20 +1,20 @@
 ------------------------------------------
-IRPG Website Code README v1.1 (2004-06-27)
+IRPG Website Code README v1.2 (2023-09-30)
 ------------------------------------------
 
 -----------
   Notes
 -----------
 
-Homepage:	http://idlerpg.net
+Homepage:	http://idlerpg.newnet.net
 License :	Public Domain
 
 -----------
  Versions
 -----------
 
-Site:	v0.5 [current/changes courtesy of res0], Released July 17th, 2004.
-Bot :	v3.1.2 [current], Released June 6th, 2004.
+Site:	v0.6 [current/changes courtesy of res0], Released Sept 30th, 2023.
+Bot :	v3.1.3 [current], Released Sept 22, 2023.
 
 ------------
 Installation
@@ -37,6 +37,6 @@ Installation
 7. Edit the website ANY WAY you see fit. You don't have to keep all of the links
    to me, I just thought they might be useful or interesting to users :^)
 8. The best way to receive support for these scripts is to post to the Help
-   section of the forum, http://idlerpg.net/forum.php, not via e-mail or IRC.
+   section of the forum, https://newnet.net/forum, not via e-mail or IRC.
    If you notice a bug, however, you may use any method to contact me.
    Thanks :^)
